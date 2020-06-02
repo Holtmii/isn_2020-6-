@@ -1,0 +1,361 @@
+/* exo-2-200 - cyrillic-ext_cyrillic */
+@font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-200.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-200.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-200.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-200.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-200.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-200.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-regular - cyrillic-ext_cyrillic */
+  @font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-regular.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-700 - cyrillic-ext_cyrillic */
+  @font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-700.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+  /* exo-2-900 - cyrillic-ext_cyrillic */
+  @font-face {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-900.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-900.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/exo-2-v8-cyrillic-ext_cyrillic-900.svg#Exo2') format('svg'); /* Legacy iOS */
+  }
+
+  /* rock-salt-regular - latin */
+@font-face {
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Rock Salt Regular'), local('RockSalt-Regular'),
+         url('../fonts/rock-salt-v10-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/rock-salt-v10-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+ /*html{
+      box-sizing: border-box;
+  }
+  *,*::before, *::after{
+      box-sizing: inherit
+  }*/
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Exo 2';
+}
+
+.logo{
+    background: #093819;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;  
+     
+}
+
+nav{
+    margin: auto;
+    width: 300px;
+    height: 100px;
+}
+
+.top_nav{
+    background-color: rgba(255, 255, 255, 0.7) ;
+    font-size: 14px;
+    margin-top: 4pt;
+    justify-content: center;
+}
+
+.top_nav a{
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+}
+
+.top_nav a:hover, .top_nav a:active, .top_nav a:focus{
+    border-bottom: 2px solid #fddfe1;
+}
+
+.top_nav .icon{
+    display: none;
+}
+
+
+.mw-100{
+    max-width: 100%;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+.container img {
+    width: 100%;
+    height: auto;
+  }
+  
+
+.container .btn {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    font-family: 'Exo 2';
+    color: white;
+    font-size: 24px;
+    padding: 2% 10%;
+    border: none;
+    cursor: pointer;
+    border-radius: 40px;
+
+  }
+  
+  .container .btn:hover {
+    background-color: rgb(44, 44, 44);
+  }
+
+
+.advantages_container{
+    display: flex;
+    justify-content: center;
+}
+
+.advantages{
+    padding-bottom: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.advantages_items{
+    width: 30%;
+    margin-bottom: 50px;
+    border-image: 3px;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    background: #093819;
+    margin: 0 auto ;
+    text-align: center;
+    padding-top: 4px;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 20px;
+
+}
+
+.footer_text{
+    font-family: 'Rock Salt';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px; 
+    padding-bottom: 100px;
+}
+
+.social img{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    size: 20px;
+}
+.blog_container{
+    background: #FAFAFA;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+    font-weight: 200;
+    margin: 48px auto;
+    width: 50rem;
+    margin-bottom: 10px;
+
+}
+
+.blog_cover{
+    background: url(../img/spa.png);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+    height: 15rem;
+    box-shadow: inset rgba(0,0,0,0.2) 0 64px 64 px 16 px;
+}
+
+.blog_body{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.blog_title{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.blog_adr{
+    margin: 48px auto;
+    margin-left: 28.5%;
+}
+
+.form{
+    width: 50%;
+    margin: 50px auto;
+}
+
+.feedback-input{
+    color: #000;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    background-color:#fff ;
+    padding: 13px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 0px solid transparent;
+    border-bottom: 1px solid #000;
+}
+
+.button-submit{
+    float: left;
+    width: 100%;
+    border: 0px solid transparent;
+    cursor: pointer;
+    background-color: #fddfe1;
+    color: #243735;
+    font-size: 18px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 300;
+}
+
+.button-submit:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.ease{
+    width: 0;
+    height: 74px;
+    background-color: #fff;
+    transition: 0.3s;
+
+}
+
+@media screen and (max-width: 768px){
+    .top_nav a:not(:first-child){
+        display: none;
+    }
+    .top_nav a.icon{
+        float: right;
+        margin-top: -17px;
+        display: block;
+        color: black;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    .top_nav.responsive{
+        position: relative;
+    }
+
+    .top_nav.top_nav.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .top_nav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .advantages_items{
+        width: 45%;
+    }
+
+    .blog_container{
+        width: 28rem;
+    }
+}
+
+@media screen and (max-width: 550px){
+   .advantages{
+       flex-direction: column;
+   }
+
+   .advantages_items{
+    width: 100%;
+   }
+
+   .blog_container{
+    width: 25rem;
+}
+
+}
+
+/*<main>
+<img src="img/3432.jpg" alt="" class="mw-100">
+<button class="btn">Button</button>
+</main>*/
+
+
+
+
+
